@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/60s-scoreboard');
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background: url(./basketball-player-7680x4320-13630.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+   
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.team-scores{
+    display: flex;
+    gap: 20px;
+}
+
+.title{
+    font-weight: 900;
+    font-family: 'Segoe UI',sans-serif;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.screen{
+    width: 10em;
+    height: 10em;
+    padding: 20px;
+    background: #000;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: #e50606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.screen p{
+    color: rgb(219, 11, 11);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.score{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+     font-family: '60s Scoreboard', sans-serif;
+}
+
+button{
+    padding: 8px 16px;
+    text-align: center;
+    margin-right: 12px;
+    background:transparent;
+    border: 1px solid rgb(232, 219, 219);
+    color: #f6f0f0;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s linear;
+
+    &:focus{
+        transform: scale(120%);
+    }
+}
+
+.reset-btn{
+    background: red;
+    border: 2px solid #aa9f9f;
+}
