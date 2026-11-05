@@ -85,6 +85,6 @@ button{
 }
 
 .reset-btn{
-    background: red;
-    border: 2px solid #aa9f9f;
+    background:transparent;
+    border: 2px solid #c71414;
 }
