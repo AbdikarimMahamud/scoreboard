@@ -88,3 +88,7 @@ button{
     background:transparent;
     border: 2px solid #c71414;
 }
+
+.leader{
+    color: yellow;
+}
